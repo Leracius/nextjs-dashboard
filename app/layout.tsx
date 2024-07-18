@@ -7,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${inter.className} antialiased`}>
         {children}
         <footer className="bg-blue-500 py-4 text-center text-white">
